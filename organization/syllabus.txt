@@ -1,0 +1,200 @@
+Course description
+
+Reinforcement learning is a vanguard method of machine learning aimed at dynamical applications, ranging from video games to autonomous cars, robots, drones etc.
+Composed of a so-called agent and environment, it is meant to resemble, in a sense, the behavior of living beings.
+Agents interact with the environment and optimize their actions to improve rewards.
+Imagine a video game speed run.
+An agent, the protagonist, interacts with the game environment and wants to beat the game as fast as possible, by dynamically adjusting his or her controls while learning on-the-fly.
+Reinforcement learning is truly an interdisciplinary subject that can be studied from different perspectives -- machine learning, control theory, dynamical system theory, pure math etc.
+
+In this course, we dive into reinforcement learning for studyng the key principles and implementing them on real examples.
+Topics covered include policy gradient methods, actor-critic, deep, predictive, safe and other kinds of reinforcement learning.
+Convergence, safety and stability of reinforcement learning are studied.
+
+В данном курсе изучается один из авангардных методов машинного обучения -- обучение с подкреплением.
+Этот метод основан на концепции агента взаимодействующего со средой и оптимизирующего свои действия с целью достижения максимальной "выгоды" (в абстрактном смысле, который конкретизируется в приложениях).
+
+Следующие темы адресованы в курсе:
+- динамические среды;
+- динамическое программирование;
+- градиентные методы оптимизации политик;
+- актор-критик;
+- сходимость, безопасность и устойчивость обучения с подкреплением;
+- глубокое и предиктивное обучение с подкреплением.
+
+=========================================================================================================
+
+Course Prerequisites / Recommendations
+
+Although necessary recalls will be made, it is expected that the students be knowledgeable in basics of differential equations, probability theory, optimization. Awareness of dynamical systems is beneficial.
+
+=========================================================================================================
+
+Content
+
+- Context of reinforcement learning 3/3/0
+
+Environments as dynamical systems;
+Discrete-time systems;
+Continuous-time systems;
+Stochastic systems;
+Markov decision processes;
+Control;
+Optimal control;
+Miscellaneous components of the context
+
+- Dynamic programming and tabular methods 3/3/6
+
+Recursion on objectives;
+Derivation of the dynamic programming principle;
+Counterexample;
+Fixed-point equations;
+Hamilton-Jacobi-Bellman equations;
+Value, policy iteration;
+Q-learning;
+Curse of dimension;
+Motivation for neural networks
+
+- Policy gradient 3/3/6
+
+REINFORCE;
+vanilla policy gradient;
+natural policy gradient;
+TRPO, PPO basics;
+Relation to Monte-Carlo methods
+
+- Temporal difference methods 3/3/6
+
+Actor and critic;
+On-policy and off-policy methods;
+TD(N) and TD(lambda);
+Advantage function:
+Neural dynamic programming;
+Model-free vs. model-based;
+Online vs. offline;
+A2C and A3C
+
+- Convergence of tabular methods 3/3/0
+
+Convergence of discounted dynamic programming;
+Contraction;
+Admissibility;
+Linear case: linear quadratic regulator, linear Gaussian regulator
+
+- Convergence of actor-critic 3/3/0
+
+Asymptotic convergence vs. uniform ultimate boundedness;
+Abstract energy, elements of stability theory;
+Convergence of actor-critic neural network weights;
+Issues of convergence;
+Persistence of excitation;
+Exploration vs. exploitation;
+
+- Deep reinforcement learning 3/3/0
+
+Deep actor-critic;
+Advanced neural network architectures in reinforcement learning;
+Non-convexity issues;
+Convergence of nonlinearly parametrized models
+
+- Predictive reinforcement learning 3/3/6
+
+Use of models;
+Model-predictive control;
+Stability of model-predictive control;
+Roll-out reinforcement learning
+
+- Safety and stability of reinforcement learning 3/3/0
+
+Human-expert;
+Formal verification, shields;
+Model-predictive control for safety and stability;
+Lyapunov-based reinforcement learning
+
+=========================================================================================================
+
+Asgn
+
+- Homework
+
+1. Implement and test a tabular reinforcement learning method
+
+2. Implement and test a policy gradient method
+
+3. Implement and test an actor-critic method
+
+4. Implement and test a predictive reinforcement learning method
+
+- Final project
+
+Pick a research work or choose a topic from an instructor's list;
+Study the research work, if applicable;
+Design a case study;
+Implement and test algorithms;
+Organize project on Github;
+Prepare a report in the form of a presentation, no separate report text is needed;
+Evaluation: based on the presentation and Github repo;
+Depending on the student count, the final projects may be assigned in groups
+
+=========================================================================================================
+
+Literature
+
+R. S. Sutton and A. G. Barto. Reinforcement learning: An introduction. MIT press, 2018
+
+Bertsekas, Dimitri P. Reinforcement learning and optimal control. Belmont, MA: Athena Scientific, 2019
+
+M. L. Puterman. Markov decision processes: discrete stochastic dynamic programming. John Wiley & Sons, 2014 
+
+Bertsekas, D. and Tsitsiklis, J. "Neuro-dynamic programming: an overview." Proceedings of 1995 34th IEEE Conference on Decision and Control. Vol. 1. IEEE, 1995
+
+Werbos, P., Miller, W., and Sutton, R. "A menu of designs for reinforcement learning over time." Neural networks for control (1990): 67-95
+
+Sokolov, Y. et al. "Complete stability analysis of a heuristic approximate dynamic programming control design." Automatica 59 (2015): 9-18
+
+Lewis, F. and Vrabie, D. "Reinforcement learning and adaptive dynamic programming for feedback control." IEEE circuits and systems magazine 9.3 (2009): 32-50
+
+Fairbank, M., and Alonso, E.. "The divergence of reinforcement learning algorithms with value-iteration and function approximation." The 2012 International Joint Conference on Neural Networks (IJCNN). IEEE, 2012
+
+https://pathmind.com/wiki/deep-reinforcement-learning
+
+=========================================================================================================
+
+Intended learning outcomes
+
+- Knowledge
+
+Reinforcement learning essentials
+
+Derivation of reinforcement learning methods, a menu of methods
+
+Advanced topics in reinforcement learning (convergence, stability etc.)
+
+- Skill
+
+Design of reinforcement learning agents (tabular, policy gradient, actor-critic, predictive etc.)
+
+Convergence analysis of reinforcement learning
+
+Stability and safety analysis of reinforcement learning
+
+- Experience
+
+Implementation of reinforcement learning methods in Python, incl. environments and agents
+
+=========================================================================================================
+
+Assessment Criteria
+
+- Homework
+
+You are given a Python interactive notebook with some basic description.
+Blocks to put your code in are indicated.
+Program, run and see the evaluation of the results immediately.
+
+Answers are auto-graded based on metrics specified in the homework assignment based on mathematical functions related to the respective reinforcement learning methods
+
+- Final project
+
+The report highlights the necessary components and the description is correct.
+Presentation is concise and clear, and includes a description of the GitHub repository to a sufficient extent
