@@ -4,7 +4,7 @@
 
 Lecture | Video | Materials | 
 | ----- |  ----- | ----- | 
-| Lecture 1 | [soon to be uploaded]()| [Class notes](lec1) |
+| Lecture 1 | [soon to be uploaded]()| [lec1] |
 
 ## Seminars 
 
