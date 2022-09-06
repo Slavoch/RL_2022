@@ -4,7 +4,7 @@
 
 Lecture | Video | Materials | 
 | ----- |  ----- | ----- | 
-| Lecture 1 | [soon to be uploaded]()| [Class notes]([lecture-folder]/RL2022-lec1-notes-class.pdf) |
+| Lecture 1 | [soon to be uploaded]()| [Class notes](lec1) |
 
 ## Seminars 
 
@@ -16,4 +16,4 @@ Seminar | Video | Materials |
 
 Coming soon.
 
-[lecture-folder]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%252Flec-1%252F
+[lec1]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-1%2FRL2022-lec1-notes-class.pdf
