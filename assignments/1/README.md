@@ -1,5 +1,8 @@
 Instructions:
-1. clone repo
+
+0. clone repo
+
+1. pip install -r requirements.txt
 
 2. open jupyter notebook
 

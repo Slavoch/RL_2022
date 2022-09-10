@@ -1,0 +1,14 @@
+cli_test_helpers==3.1.0
+matplotlib==3.5.3
+mpldatacursor==0.7.1
+mpldatacursor_rcognita==0.7.2
+numpy==1.20.3
+pickle5==0.0.11
+pytest==7.1.2
+rospy==1.15.14
+scipy==1.6.2
+sensor_msgs==1.13.1
+setuptools==58.0.4
+Shapely==1.7.1
+svgpath2mpl==0.2.1
+tabulate==0.8.7
