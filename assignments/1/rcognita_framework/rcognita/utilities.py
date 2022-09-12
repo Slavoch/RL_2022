@@ -40,7 +40,7 @@ except ModuleNotFoundError:
         __file__,
         42,
     )
-    CASADI_TYPES = []
+    CASADI_TYPES = tuple()
 import types
 
 try:
@@ -55,7 +55,7 @@ except ModuleNotFoundError:
         __file__,
         42,
     )
-    TORCH_TYPES = []
+    TORCH_TYPES = tuple()
 
 
 class RCType(IntEnum):
