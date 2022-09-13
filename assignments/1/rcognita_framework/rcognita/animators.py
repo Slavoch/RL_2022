@@ -19,7 +19,7 @@ from .utilities import upd_text
 from .utilities import rc
 import matplotlib.cm as cm
 import matplotlib.colors as mcolors
-import matplotlib.patheffects as PathEffe
+import matplotlib.patheffects as PathEffects
 import time
 
 import matplotlib as mpl
