@@ -13,7 +13,7 @@ Lecture | Video | Materials |
 Seminar | Video | Materials |
 | ----- | ------ | ----- | 
 | Seminar 1. Terminology | [seminar 1 vid] | [seminar 1 slides] |
-| Seminar 2. Basic control problems | [soon to be uploaded]() | [seminar 2 problems] |
+| Seminar 2. Basic control problems | [seminar 2 vid] | [seminar 2 problems] |
 | Seminar 3. Policy gradient | [soon to be uploaded]() | [soon to be uploaded]() |
 
 ## Assignments
@@ -34,3 +34,4 @@ Coming soon.
 
 
 [seminar 1 vid]: https://dzen.ru/video/watch/6320ac92dd1b7e17e7124c42
+[seminar 2 vid]: https://dzen.ru/video/watch/6321e901ac97f52354ae78a6
