@@ -33,16 +33,12 @@ else:
 print("INFO:", info)
 
 from rcognita import (
-    controllers,
     animators,
-    simulator,
     systems,
-    loggers,
     predictors,
     optimizers,
     objectives,
     models,
-    utilities,
 )
 from rcognita.loggers import logger3WRobotNI
 from datetime import datetime
