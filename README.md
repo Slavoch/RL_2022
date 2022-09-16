@@ -30,7 +30,7 @@ Coming soon.
 
 [seminar 1 slides]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob/raw?file=seminars%2F1%2Fslides.pdf&commit=0eb85f821893a9628a86ac6b8094f6407c36ea33
 [seminar 2 problems]: https://colab.research.google.com/drive/1gKNzY-ayJ_dbPfI7CMFGfxESBA45gx52?usp=sharing
-[seminar 3 problems]: https://drive.google.com/file/d/1EvACkLMYhr5-NPwwbORNk8Dp80i1Mapu/view?usp=sharing
+[seminar 3 problems]: https://colab.research.google.com/drive/1EvACkLMYhr5-NPwwbORNk8Dp80i1Mapu?usp=sharing
 
 
 [seminar 1 vid]: https://dzen.ru/video/watch/6320ac92dd1b7e17e7124c42
