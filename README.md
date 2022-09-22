@@ -23,8 +23,8 @@ Coming soon.
 
 [lecture 1 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-1%2FRL2022-lec1-notes-class.pdf
 [lecture 2 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-2%2FRL2022-lec2-notes-class.pdf
-[lecture 3 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-2%2FRL2022-lec3-notes-class.pdf
-[lecture 4 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-2%2FRL2022-lec4-notes-class.pdf
+[lecture 3 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-3%2FRL2022-lec3-notes-class.pdf
+[lecture 4 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-4%2FRL2022-lec4-notes-class.pdf
 
 [lecture 1 vid]: https://dzen.ru/video/watch/63205f2c5851e006834c857a
 [lecture 2 vid]: https://dzen.ru/video/watch/632095bd70e9127d7bc14381
