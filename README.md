@@ -7,7 +7,7 @@ Lecture | Video | Materials |
 | Lecture 1. Setup | [lecture 1 vid] | [lecture 1 notes] |
 | Lecture 2. Tabular methods | [lecture 2 vid] | [lecture 2 notes] |
 | Lecture 3. Policy gradient | [lecture 3 vid] | [lecture 3 notes] |
-| Lecture 3. Temporal difference | [coming soon] | [lecture 4 notes] |
+| Lecture 4. Temporal difference | [lecture 4 vid] | [lecture 4 notes] |
 
 ## Seminars 
 
@@ -31,6 +31,7 @@ Coming soon.
 [lecture 1 vid]: https://dzen.ru/video/watch/63205f2c5851e006834c857a
 [lecture 2 vid]: https://dzen.ru/video/watch/632095bd70e9127d7bc14381
 [lecture 3 vid]: https://dzen.ru/video/watch/63209908e772054853b1e483
+[lecture 4 vid]: https://dzen.ru/video/watch/632f2a6576334d1d672c990f
 
 [seminar 1 slides]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob/raw?file=seminars%2F1%2Fslides.pdf&commit=0eb85f821893a9628a86ac6b8094f6407c36ea33
 [seminar 2 problems]: https://colab.research.google.com/drive/1gKNzY-ayJ_dbPfI7CMFGfxESBA45gx52?usp=sharing
