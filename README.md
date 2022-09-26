@@ -8,6 +8,7 @@ Lecture | Video | Materials |
 | Lecture 2. Tabular methods | [lecture 2 vid] | [lecture 2 notes] |
 | Lecture 3. Policy gradient | [lecture 3 vid] | [lecture 3 notes] |
 | Lecture 3. Temporal difference | [coming soon] | [lecture 4 notes] |
+| Lecture 5. Convergence of tabular methods | [coming soon] | [lecture 5 notes] |
 
 ## Seminars 
 
@@ -25,6 +26,7 @@ Coming soon.
 [lecture 2 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-2%2FRL2022-lec2-notes-class.pdf
 [lecture 3 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-3%2FRL2022-lec3-notes-class.pdf
 [lecture 4 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-4%2FRL2022-lec4-notes-class.pdf
+[lecture 5 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-5%2FRL2022-lec5-notes-class.pdf
 
 [lecture 1 vid]: https://dzen.ru/video/watch/63205f2c5851e006834c857a
 [lecture 2 vid]: https://dzen.ru/video/watch/632095bd70e9127d7bc14381
