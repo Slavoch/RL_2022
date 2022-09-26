@@ -6,7 +6,8 @@ Lecture | Video | Materials |
 | ----- |  ----- | ----- | 
 | Lecture 1. Setup | [lecture 1 vid] | [lecture 1 notes] |
 | Lecture 2. Tabular methods | [lecture 2 vid] | [lecture 2 notes] |
-| Lecture 3. Policy gradient | [lecture 3 vid] | [soon to be uploaded]() |
+| Lecture 3. Policy gradient | [lecture 3 vid] | [lecture 3 notes] |
+| Lecture 3. Temporal difference | [coming soon] | [lecture 4 notes] |
 
 ## Seminars 
 
@@ -24,7 +25,8 @@ Coming soon.
 
 [lecture 1 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-1%2FRL2022-lec1-notes-class.pdf
 [lecture 2 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-2%2FRL2022-lec2-notes-class.pdf
-[lecture 3 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-2%2FRL2022-lec3-notes-class.pdf
+[lecture 3 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-3%2FRL2022-lec3-notes-class.pdf
+[lecture 4 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-4%2FRL2022-lec4-notes-class.pdf
 
 [lecture 1 vid]: https://dzen.ru/video/watch/63205f2c5851e006834c857a
 [lecture 2 vid]: https://dzen.ru/video/watch/632095bd70e9127d7bc14381
@@ -35,7 +37,6 @@ Coming soon.
 [seminar 3 problems]: https://colab.research.google.com/drive/1EvACkLMYhr5-NPwwbORNk8Dp80i1Mapu?usp=sharing
 [seminar 4 problems]: https://colab.research.google.com/drive/1r59_-7F_9_eZbAXNBV6lOJqRZKLubU0q?usp=sharing
 [seminar 5 problems]: https://colab.research.google.com/drive/1yMKK5TgmeK38HWcK3jWUPnBQnMEDZ4Af?usp=sharing
-
 
 [seminar 1 vid]: https://dzen.ru/video/watch/6320ac92dd1b7e17e7124c42
 [seminar 2 vid]: https://dzen.ru/video/watch/6321e901ac97f52354ae78a6
