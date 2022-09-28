@@ -180,7 +180,7 @@ class EpisodicScenario(OnlineScenario):
         super().__init__(*args, **kwargs)
         self.weights_historical.append(self.actor.model.weights[0])
         self.outcomes_of_episodes = []
-        self.outcome_episodic_mean = []
+        self.outcome_episodic_means = []
         self.sim_status = 1
         self.episode_counter = 0
         self.iteration_counter = 0
@@ -263,7 +263,7 @@ class EpisodicScenario(OnlineScenario):
 
             if self.episode_counter >= self.N_episodes:
 
-                self.outcome_episodic_mean.append(rc.mean(self.outcomes_of_episodes))
+                self.outcome_episodic_means.append(rc.mean(self.outcomes_of_episodes))
                 self.outcomes_of_episodes = []
                 mean_grad_value = sum(self.episode_REINFORCE_objective_gradients) / len(
                     self.episode_REINFORCE_objective_gradients
@@ -282,4 +282,3 @@ class EpisodicScenario(OnlineScenario):
                     return "iteration_ended"
             else:
                 return "episode_ended"
-

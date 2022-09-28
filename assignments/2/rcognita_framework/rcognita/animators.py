@@ -110,7 +110,13 @@ class AnimatorInvertedPendulum(Animator):
             self.scenario,
         ) = self.objects
 
-        (state_init, time_start, time_final, state_full_init, control_mode,) = self.pars
+        (
+            state_init,
+            time_start,
+            time_final,
+            state_full_init,
+            control_mode,
+        ) = self.pars
 
         # Store some parameters for later use
         self.time_old = 0
@@ -190,10 +196,9 @@ class AnimatorInvertedPendulum(Animator):
             223,
             autoscale_on=True,
             xlim=(1, self.scenario.N_iterations),
-            ylim=(-1e4, 0),
+            ylim=(-1e3, 0),
             ylabel="Outcome",
             xlabel="Iteration number",
-            yscale="symlog",
         )
 
         (self.line_outcome_episodic_mean,) = self.axs_cost.plot(
@@ -220,7 +225,10 @@ class AnimatorInvertedPendulum(Animator):
         ###################################################################
 
         # Pack all lines together
-        cLines = namedtuple("lines", ["line_angle", "line_outcome_episodic_mean"],)
+        cLines = namedtuple(
+            "lines",
+            ["line_angle", "line_outcome_episodic_mean"],
+        )
         self.lines = cLines(
             line_angle=self.line_angle,
             line_outcome_episodic_mean=self.line_outcome_episodic_mean,
@@ -244,13 +252,25 @@ class AnimatorInvertedPendulum(Animator):
             xCoord0, yCoord0, marker="o", s=400, c="b"
         )
         (self.line_rod,) = self.axs_xy_plane.plot(
-            [0, xCoord0], [0, yCoord0], "b", lw=1.5,
+            [0, xCoord0],
+            [0, yCoord0],
+            "b",
+            lw=1.5,
         )
         self.run_curr = 1
         self.datafile_curr = self.datafiles[0]
 
     def set_sim_data(
-        self, iters, episodes, ts, angles, angle_dots, Ms, rs, outcomes, thetas,
+        self,
+        iters,
+        episodes,
+        ts,
+        angles,
+        angle_dots,
+        Ms,
+        rs,
+        outcomes,
+        thetas,
     ):
         """
         This function is needed for playback purposes when simulation data were generated elsewhere.
@@ -336,7 +356,7 @@ class AnimatorInvertedPendulum(Animator):
         sim_status = self.scenario.step()
         if sim_status == "simulation_ended":
             print("Simulation ended")
-            sys.exit(0)
+            self.anm.event_source.stop()
         self.update_step()
         if sim_status == "episode_ended":
             self.update_episode()
@@ -344,16 +364,34 @@ class AnimatorInvertedPendulum(Animator):
             self.update_episode()
             self.update_iteration()
 
+    def reset(self):
+        self.current_step = 0
+
+        self.line_angle.set_xdata([])
+        self.line_angle.set_ydata([])
+        for handle in self.episodic_line_handles:
+            handle.set_xdata([self.time_start])
+            handle.set_ydata([self.state_full_init[0]])
+
+        for i, handle in enumerate(self.policy_line_handles_pack):
+            handle.set_xdata(self.iters[self.current_step])
+            handle.set_ydata(self.thetas[self.current_step][i])
+
+        self.line_outcome_episodic_mean.set_xdata([])
+        self.line_outcome_episodic_mean.set_ydata([])
+        self.episodic_outcomes = []
+        self.iteration_counter = 0
+        self.episode_counter = 0
+        self.scenario.logger.reset()
+
     def playback(self, k):
         if self.current_step >= len(self.times) - self.speedup - 1:
-            sys.exit(0)
+            self.reset()
 
         self.update_sim_data_row()
         self.update_step_playback()
 
         if self.time > self.times[self.current_step]:
-            if self.current_step == len(self.times) - 2:
-                sys.exit(0)
             self.update_episode_playback()
             self.episode_counter = self.episodes[self.current_step]
             if self.iteration_counter < self.iters[self.current_step]:
@@ -363,7 +401,10 @@ class AnimatorInvertedPendulum(Animator):
     def update_sim_data_row(self):
         self.time = self.times[self.current_step]
         self.state_full = np.array(
-            [self.angles[self.current_step], self.angle_dots[self.current_step],]
+            [
+                self.angles[self.current_step],
+                self.angle_dots[self.current_step],
+            ]
         )
         self.running_objective_value = self.rs[self.current_step]
         self.outcome = self.outcomes[self.current_step]
@@ -401,10 +442,10 @@ class AnimatorInvertedPendulum(Animator):
         x_data = np.array(self.line_angle.get_xdata())
         y_data = np.array(self.line_angle.get_ydata())
         handle = self.episodic_line_handles[self.episodes[self.current_step]]
-        handle.set_xdata(x_data[1:-1])
-        handle.set_ydata(y_data[1:-1])
+        handle.set_xdata(x_data[:-1])
+        handle.set_ydata(y_data[:-1])
         self.line_angle.set_xdata([self.time_start])
-        self.line_angle.set_ydata([self.state_full_init[0]])
+        self.line_angle.set_ydata([np.pi])
 
         self.episodic_outcomes.append(
             self.outcomes[self.current_step - self.speedup - 1]
@@ -826,8 +867,10 @@ class Animator3WRobot(Animator, pipeline_3wrobot.Pipeline3WRobot):
             xlabel="Time [s]",
         )
 
-        text_outcome = r"$\int \mathrm{{Stage\,obj.}} \,\mathrm{{d}}t$ = {outcome:2.3f}".format(
-            outcome=0
+        text_outcome = (
+            r"$\int \mathrm{{Stage\,obj.}} \,\mathrm{{d}}t$ = {outcome:2.3f}".format(
+                outcome=0
+            )
         )
         self.text_outcome_handle = self.fig_sim.text(
             0.05,
@@ -971,7 +1014,10 @@ class Animator3WRobot(Animator, pipeline_3wrobot.Pipeline3WRobot):
                     time, observation
                 )
             else:
-                action = self.controller.compute_action_sampled(time, observation,)
+                action = self.controller.compute_action_sampled(
+                    time,
+                    observation,
+                )
 
             self.system.receive_action(action)
 
@@ -1027,8 +1073,10 @@ class Animator3WRobot(Animator, pipeline_3wrobot.Pipeline3WRobot):
         # Cost
         update_line(self.line_running_obj, time, running_objective)
         update_line(self.line_outcome, time, outcome)
-        text_outcome = r"$\int \mathrm{{Stage\,obj.}} \,\mathrm{{d}}t$ = {outcome:2.1f}".format(
-            outcome=np.squeeze(np.array(outcome))
+        text_outcome = (
+            r"$\int \mathrm{{Stage\,obj.}} \,\mathrm{{d}}t$ = {outcome:2.1f}".format(
+                outcome=np.squeeze(np.array(outcome))
+            )
         )
         update_text(self.text_outcome_handle, text_outcome)
 
@@ -1224,8 +1272,10 @@ class Animator3WRobotNI(Animator, pipeline_3wrobot_NI.Pipeline3WRobotNI):
             xlabel="Time [s]",
         )
 
-        text_outcome = r"$\int \mathrm{{Stage\,obj.}} \,\mathrm{{d}}t$ = {outcome:2.3f}".format(
-            outcome=0
+        text_outcome = (
+            r"$\int \mathrm{{Stage\,obj.}} \,\mathrm{{d}}t$ = {outcome:2.3f}".format(
+                outcome=0
+            )
         )
         self.text_outcome_handle = self.fig_sim.text(
             0.05,
@@ -1375,8 +1425,10 @@ class Animator3WRobotNI(Animator, pipeline_3wrobot_NI.Pipeline3WRobotNI):
             self.scenario.running_objective_value,
         )
         update_line(self.line_outcome, self.scenario.time, self.scenario.outcome)
-        text_outcome = r"$\int \mathrm{{Stage\,obj.}} \,\mathrm{{d}}t$ = {outcome:2.1f}".format(
-            outcome=np.squeeze(np.array(self.scenario.outcome))
+        text_outcome = (
+            r"$\int \mathrm{{Stage\,obj.}} \,\mathrm{{d}}t$ = {outcome:2.1f}".format(
+                outcome=np.squeeze(np.array(self.scenario.outcome))
+            )
         )
         update_text(self.text_outcome_handle, text_outcome)
 
@@ -1540,8 +1592,10 @@ class Animator2Tank(Animator, pipeline_2tank.Pipeline2Tank):
             xlabel="Time [s]",
         )
 
-        text_outcome = r"$\int \mathrm{{Stage\,obj.}} \,\mathrm{{d}}t$ = {outcome:2.3f}".format(
-            outcome=0
+        text_outcome = (
+            r"$\int \mathrm{{Stage\,obj.}} \,\mathrm{{d}}t$ = {outcome:2.3f}".format(
+                outcome=0
+            )
         )
         self.text_outcome_handle = self.fig_sim.text(
             0.05,
@@ -1665,8 +1719,10 @@ class Animator2Tank(Animator, pipeline_2tank.Pipeline2Tank):
         # Cost
         update_line(self.line_running_obj, time, running_objective)
         update_line(self.line_outcome, time, outcome)
-        text_outcome = r"$\int \mathrm{{Stage\,obj.}} \,\mathrm{{d}}t$ = {outcome:2.1f}".format(
-            outcome=np.squeeze(np.array(outcome))
+        text_outcome = (
+            r"$\int \mathrm{{Stage\,obj.}} \,\mathrm{{d}}t$ = {outcome:2.1f}".format(
+                outcome=np.squeeze(np.array(outcome))
+            )
         )
         update_text(self.text_outcome_handle, text_outcome)
 

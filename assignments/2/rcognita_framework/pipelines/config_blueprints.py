@@ -1,8 +1,7 @@
 import numpy as np
 import argparse
 from abc import abstractmethod
-
-# import pickle5 as pickle
+import pickle5 as pickle
 
 
 class LoadFromFile(argparse.Action):
@@ -73,10 +72,7 @@ class RcognitaArgParser(argparse.ArgumentParser):
         )
         self.add_argument("--config", type=open, action=LoadFromFile)
         self.add_argument(
-            "strings",
-            metavar="STRING",
-            nargs="*",
-            help="String for searching",
+            "strings", metavar="STRING", nargs="*", help="String for searching",
         )
 
         self.add_argument(
@@ -769,9 +765,7 @@ class ConfigInvertedPendulum(AbstractConfig):
         parser = RcognitaArgParser(description=description)
 
         parser.add_argument(
-            "--is_playback",
-            action="store_true",
-            help="Flag to playback.",
+            "--is_playback", action="store_true", help="Flag to playback.",
         )
 
         parser.add_argument(
@@ -833,10 +827,7 @@ class ConfigInvertedPendulum(AbstractConfig):
             help="Size of each prediction step in seconds is a pred_step_size_multiplier multiple of controller sampling time sampling_time.",
         )
         parser.add_argument(
-            "--speedup",
-            type=int,
-            default=20,
-            help="Animation speed up",
+            "--speedup", type=int, default=20, help="Animation speed up",
         )
         parser.add_argument(
             "--data_buffer_size",
