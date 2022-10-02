@@ -7,7 +7,7 @@ Lecture | Video | Materials |
 | Lecture 1. Setup | [lecture 1 vid] | [lecture 1 notes] |
 | Lecture 2. Tabular methods | [lecture 2 vid] | [lecture 2 notes] |
 | Lecture 3. Policy gradient | [lecture 3 vid] | [lecture 3 notes] |
-| Lecture 3. Temporal difference | [coming soon] | [lecture 4 notes] |
+| Lecture 4. Temporal difference | [coming soon] | [lecture 4 notes] |
 | Lecture 5. Convergence of tabular methods | [coming soon] | [lecture 5 notes] |
 | Lecture 6. Convergence of actor-critic | [coming soon] | [lecture 6 notes] |
 
@@ -18,6 +18,8 @@ Seminar | Video | Materials |
 | Seminar 1. Terminology | [seminar 1 vid] | [seminar 1 slides] |
 | Seminar 2. Basic control problems | [seminar 2 vid] | [seminar 2 problems] |
 | Seminar 3. Policy gradient | [seminar 3 vid] | [seminar 3 problems] |
+| Seminar 4. Discretization | [seminar 4 vid] | [seminar 4 problems] |
+| Seminar 5. Actor-Critic | [seminar 5 vid] | [seminar 5 problems] |
 
 ## Assignments
 
@@ -37,7 +39,10 @@ Coming soon.
 [seminar 1 slides]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob/raw?file=seminars%2F1%2Fslides.pdf&commit=0eb85f821893a9628a86ac6b8094f6407c36ea33
 [seminar 2 problems]: https://colab.research.google.com/drive/1gKNzY-ayJ_dbPfI7CMFGfxESBA45gx52?usp=sharing
 [seminar 3 problems]: https://colab.research.google.com/drive/1EvACkLMYhr5-NPwwbORNk8Dp80i1Mapu?usp=sharing
+[seminar 4 problems]: https://colab.research.google.com/drive/1r59_-7F_9_eZbAXNBV6lOJqRZKLubU0q?usp=sharing
+[seminar 5 problems]: https://colab.research.google.com/drive/1yMKK5TgmeK38HWcK3jWUPnBQnMEDZ4Af?usp=sharing
 
 [seminar 1 vid]: https://dzen.ru/video/watch/6320ac92dd1b7e17e7124c42
 [seminar 2 vid]: https://dzen.ru/video/watch/6321e901ac97f52354ae78a6
 [seminar 3 vid]: https://dzen.ru/video/watch/6324b6d6b3d4c87d20e06b2a
+[seminar 4 vid]: https://dzen.ru/video/watch/63397b503d1ef66e362196c0
