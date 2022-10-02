@@ -46,3 +46,4 @@ Coming soon.
 [seminar 2 vid]: https://dzen.ru/video/watch/6321e901ac97f52354ae78a6
 [seminar 3 vid]: https://dzen.ru/video/watch/6324b6d6b3d4c87d20e06b2a
 [seminar 4 vid]: https://dzen.ru/video/watch/63397b503d1ef66e362196c0
+[seminar 5 vid]: https://dzen.ru/video/watch/632e01694e06cf60ff1b0e15
