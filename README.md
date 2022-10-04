@@ -20,10 +20,14 @@ Seminar | Video | Materials |
 | Seminar 3. Policy gradient | [seminar 3 vid] | [seminar 3 problems] |
 | Seminar 4. Discretization | [seminar 4 vid] | [seminar 4 problems] |
 | Seminar 5. Actor-Critic | [seminar 5 vid] | [seminar 5 problems] |
+| Seminar 6. Advanced interfaces | [seminar 6 vid] | [seminar 6 problems] |
 
 ## Assignments
+Assignment | Materials |
+| ----- | ----- | 
+| Assignment 1. Tabular methods |  [hw 1 problems] |
+| Assignment 2. Policy-gradient | [hw 2 problems] |
 
-Coming soon.
 
 [lecture 1 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-1%2FRL2022-lec1-notes-class.pdf
 [lecture 2 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-2%2FRL2022-lec2-notes-class.pdf
@@ -41,9 +45,14 @@ Coming soon.
 [seminar 3 problems]: https://colab.research.google.com/drive/1EvACkLMYhr5-NPwwbORNk8Dp80i1Mapu?usp=sharing
 [seminar 4 problems]: https://colab.research.google.com/drive/1r59_-7F_9_eZbAXNBV6lOJqRZKLubU0q?usp=sharing
 [seminar 5 problems]: https://colab.research.google.com/drive/1yMKK5TgmeK38HWcK3jWUPnBQnMEDZ4Af?usp=sharing
+[seminar 6 problems]: https://colab.research.google.com/drive/1nbC5Ufjiw2r-p4dTqdp6-NgZq3ccNyvw?usp=sharing
 
 [seminar 1 vid]: https://dzen.ru/video/watch/6320ac92dd1b7e17e7124c42
 [seminar 2 vid]: https://dzen.ru/video/watch/6321e901ac97f52354ae78a6
 [seminar 3 vid]: https://dzen.ru/video/watch/6324b6d6b3d4c87d20e06b2a
 [seminar 4 vid]: https://dzen.ru/video/watch/63397b503d1ef66e362196c0
 [seminar 5 vid]: https://dzen.ru/video/watch/632e01694e06cf60ff1b0e15
+[seminar 6 vid]: https://dzen.ru/video/watch/633c1939ef40ea3a64227e5d
+
+[hw 1 problems]: https://colab.research.google.com/drive/10CH-GRvxoMpK6E22ZezOonc058LevdTu?usp=sharing
+[hw 2 problems]: https://colab.research.google.com/drive/1QZvAd3HCGJUMJUA_gqJdltRUX2xCAIut?usp=sharing
