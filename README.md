@@ -23,10 +23,10 @@ Seminar | Video | Materials |
 | Seminar 6. Advanced interfaces | [seminar 6 vid] | [seminar 6 problems] |
 
 ## Assignments
-Assignment | Materials |
-| ----- | ----- | 
-| Assignment 1. Tabular methods |  [hw 1 problems] |
-| Assignment 2. Policy-gradient | [hw 2 problems] |
+Assignment | Colab (recommended) | Offline |
+| ----- | ----- | ----- |
+| Assignment 1. Tabular methods | [HW 1 colab] | [HW 1 offline] |
+| Assignment 2. Policy-gradient | [HW 2 colab] | [HW 2 offline] |
 
 
 [lecture 1 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-1%2FRL2022-lec1-notes-class.pdf
@@ -55,5 +55,9 @@ Assignment | Materials |
 [seminar 5 vid]: https://dzen.ru/video/watch/632e01694e06cf60ff1b0e15
 [seminar 6 vid]: https://dzen.ru/video/watch/633c1939ef40ea3a64227e5d
 
-[hw 1 problems]: https://colab.research.google.com/drive/10CH-GRvxoMpK6E22ZezOonc058LevdTu?usp=sharing
-[hw 2 problems]: https://colab.research.google.com/drive/1QZvAd3HCGJUMJUA_gqJdltRUX2xCAIut?usp=sharing
+[HW 1 colab]: https://colab.research.google.com/drive/10CH-GRvxoMpK6E22ZezOonc058LevdTu?usp=sharing
+[HW 2 colab]: https://colab.research.google.com/drive/1QZvAd3HCGJUMJUA_gqJdltRUX2xCAIut?usp=sharing
+
+[HW 1 offline]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/file?file=assignments%2Fasgn-1
+[HW 2 offline]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/file?file=assignments%2Fasgn-2
+
