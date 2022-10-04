@@ -32,17 +32,6 @@ else:
     )
 print("INFO:", info)
 
-from rcognita import (
-    controllers,
-    animators,
-    simulator,
-    systems,
-    loggers,
-    predictors,
-    optimizers,
-    objectives,
-    models,
-)
 from datetime import datetime
 from rcognita.utilities import on_key_press, rc
 
@@ -222,6 +211,19 @@ class Pipeline3WRobot(PipelineWithDefaults):
         animator.fig_sim.tight_layout()
 
         plt.show()
+
+
+from rcognita import (
+    controllers,
+    animators,
+    simulator,
+    systems,
+    loggers,
+    predictors,
+    optimizers,
+    objectives,
+    models,
+)
 
 
 def main():
