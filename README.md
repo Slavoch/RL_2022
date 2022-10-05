@@ -37,8 +37,8 @@ Assignment | Colab (recommended) | Offline |
 [lecture 4 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-4%2FRL2022-lec4-notes-class.pdf
 [lecture 5 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-5%2FRL2022-lec5-notes-class.pdf
 [lecture 6 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-6%2FRL2022-lec6-notes-class.pdf
-[lecture 7 notes]: https://gitflic.ru/whatever
-[lecture 8 notes]: https://gitflic.ru/whatever
+[lecture 7 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-7%2F0c4d6b0c-f6a6-4750-8cec-03379ff1130b.pdf
+[lecture 8 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-8%2Fcea42e96-8ffa-4f28-9abb-1b5b17dabb77.pdf
 
 [lecture 1 vid]: https://dzen.ru/video/watch/63205f2c5851e006834c857a
 [lecture 2 vid]: https://dzen.ru/video/watch/632095bd70e9127d7bc14381
