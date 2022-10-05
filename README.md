@@ -8,8 +8,10 @@ Lecture | Video | Materials |
 | Lecture 2. Tabular methods | [lecture 2 vid] | [lecture 2 notes] |
 | Lecture 3. Policy gradient | [lecture 3 vid] | [lecture 3 notes] |
 | Lecture 4. Temporal difference | [lecture 4 vid] | [lecture 4 notes] |
-| Lecture 5. Convergence of tabular methods | [coming soon] | [lecture 5 notes] |
-| Lecture 6. Convergence of actor-critic | [coming soon] | [lecture 6 notes] |
+| Lecture 5. Convergence of tabular methods | [lecture 5 vid] | [lecture 5 notes] |
+| Lecture 6. Convergence of actor-critic | [lecture 6 vid] | [lecture 6 notes] |
+| Lecture 7. Deep RL | [coming soon] | [lecture 7 notes] |
+| Lecture 8. Predictive RL | [lecture 8 vid] | [lecture 8 notes] |
 
 ## Seminars 
 
@@ -35,12 +37,16 @@ Assignment | Colab (recommended) | Offline |
 [lecture 4 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-4%2FRL2022-lec4-notes-class.pdf
 [lecture 5 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-5%2FRL2022-lec5-notes-class.pdf
 [lecture 6 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-6%2FRL2022-lec6-notes-class.pdf
+[lecture 7 notes]: https://gitflic.ru/whatever
+[lecture 8 notes]: https://gitflic.ru/whatever
 
 [lecture 1 vid]: https://dzen.ru/video/watch/63205f2c5851e006834c857a
 [lecture 2 vid]: https://dzen.ru/video/watch/632095bd70e9127d7bc14381
 [lecture 3 vid]: https://dzen.ru/video/watch/63209908e772054853b1e483
 [lecture 4 vid]: https://dzen.ru/video/watch/632f2a6576334d1d672c990f
 [lecture 5 vid]: https://dzen.ru/video/watch/633c757b02b4de0538c1723b
+[lecture 6 vid]: https://dzen.ru/video/watch/633c7e0e197e176a3abe436c
+[lecture 8 vid]: https://dzen.ru/video/watch/633c7ee85f579b31bd9728f4
 
 [seminar 1 slides]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob/raw?file=seminars%2F1%2Fslides.pdf&commit=0eb85f821893a9628a86ac6b8094f6407c36ea33
 [seminar 2 problems]: https://colab.research.google.com/drive/1gKNzY-ayJ_dbPfI7CMFGfxESBA45gx52?usp=sharing
