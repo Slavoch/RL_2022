@@ -10,7 +10,7 @@ Lecture | Video | Materials |
 | Lecture 4. Temporal difference | [lecture 4 vid] | [lecture 4 notes] |
 | Lecture 5. Convergence of tabular methods | [lecture 5 vid] | [lecture 5 notes] |
 | Lecture 6. Convergence of actor-critic | [lecture 6 vid] | [lecture 6 notes] |
-| Lecture 7. Deep RL | [coming soon] | [lecture 7 notes] |
+| Lecture 7. Deep RL | [lecture 7 vid] | [lecture 7 notes] |
 | Lecture 8. Predictive RL | [lecture 8 vid] | [lecture 8 notes] |
 
 ## Seminars 
@@ -45,7 +45,8 @@ Assignment | Colab (recommended) | Offline |
 [lecture 3 vid]: https://dzen.ru/video/watch/63209908e772054853b1e483
 [lecture 4 vid]: https://dzen.ru/video/watch/632f2a6576334d1d672c990f
 [lecture 5 vid]: https://dzen.ru/video/watch/633c757b02b4de0538c1723b
-[lecture 6 vid]: https://dzen.ru/video/watch/633c7e0e197e176a3abe436c
+[lecture 6 vid]: https://dzen.ru/video/watch/633d76ab3ed50f4947d51441
+[lecture 7 vid]: https://dzen.ru/video/watch/633d825d07b5c32cc5fc0441
 [lecture 8 vid]: https://dzen.ru/video/watch/633c7ee85f579b31bd9728f4
 
 [seminar 1 slides]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob/raw?file=seminars%2F1%2Fslides.pdf&commit=0eb85f821893a9628a86ac6b8094f6407c36ea33
