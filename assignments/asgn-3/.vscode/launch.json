@@ -1,0 +1,33 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--control_mode",
+                "SQL",
+                "--no_visual"
+            ]
+        },
+        {
+            "name": "Debug critic leraning",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/odinmaniac/Downloads/Repos/RL_COURSE/classedu2022-rl-dev/assignments/asgn-3/rcognita_framework/pipelines/pipeline_inverted_pendulum_AC_async.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--config",
+                "/home/odinmaniac/Downloads/Repos/RL_COURSE/classedu2022-rl-dev/assignments/asgn-3/rcognita_framework/pipelines/argv_configs/successful_pg_AAC_many_iters_experiments.txt",
+            ]
+        },
+    ]
+}
