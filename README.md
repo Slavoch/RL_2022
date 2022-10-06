@@ -29,6 +29,7 @@ Assignment | Colab (recommended) | Offline |
 | ----- | ----- | ----- |
 | Assignment 1. Tabular methods | [HW 1 colab] | [HW 1 offline] |
 | Assignment 2. Policy-gradient | [HW 2 colab] | [HW 2 offline] |
+| Assignment 3. Actor-Critic | [HW 3 colab] | [HW 3 offline] |
 
 
 [lecture 1 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-1%2FRL2022-lec1-notes-class.pdf
@@ -65,7 +66,10 @@ Assignment | Colab (recommended) | Offline |
 
 [HW 1 colab]: https://colab.research.google.com/drive/10CH-GRvxoMpK6E22ZezOonc058LevdTu?usp=sharing
 [HW 2 colab]: https://colab.research.google.com/drive/1QZvAd3HCGJUMJUA_gqJdltRUX2xCAIut?usp=sharing
+[HW 3 colab]: https://colab.research.google.com/drive/1Ahr_PnwSfC0CsPBln1Yy-B6oVXEFy8_M?usp=sharing
 
 [HW 1 offline]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/file?file=assignments%2Fasgn-1
 [HW 2 offline]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/file?file=assignments%2Fasgn-2
+[HW 3 offline]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/file?file=assignments%2Fasgn-3
+
 
