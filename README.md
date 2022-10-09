@@ -21,8 +21,9 @@ Seminar | Video | Materials |
 | Seminar 2. Basic control problems | [seminar 2 vid] | [seminar 2 problems] |
 | Seminar 3. Policy gradient | [seminar 3 vid] | [seminar 3 problems] |
 | Seminar 4. Discretization | [seminar 4 vid] | [seminar 4 problems] |
-| Seminar 5. Actor-Critic | [seminar 5 vid] | [seminar 5 problems] |
+| Seminar 5. Actor-Critic (part 1) | [seminar 5 vid] | [seminar 5 problems] |
 | Seminar 6. Advanced interfaces | [seminar 6 vid] | [seminar 6 problems] |
+| Seminar 7. Actor-Critic (part 2) | [seminar 7 vid] | [seminar 7 problems] |
 
 ## Assignments
 Assignment | Colab (recommended) | Offline |
@@ -56,6 +57,7 @@ Assignment | Colab (recommended) | Offline |
 [seminar 4 problems]: https://colab.research.google.com/drive/1r59_-7F_9_eZbAXNBV6lOJqRZKLubU0q?usp=sharing
 [seminar 5 problems]: https://colab.research.google.com/drive/1yMKK5TgmeK38HWcK3jWUPnBQnMEDZ4Af?usp=sharing
 [seminar 6 problems]: https://colab.research.google.com/drive/1nbC5Ufjiw2r-p4dTqdp6-NgZq3ccNyvw?usp=sharing
+[seminar 7 problems]: https://colab.research.google.com/drive/12M2fTJxlkuZ0fwZqdcKNxKtLa9dAGOPa?usp=sharing
 
 [seminar 1 vid]: https://dzen.ru/video/watch/6320ac92dd1b7e17e7124c42
 [seminar 2 vid]: https://dzen.ru/video/watch/6321e901ac97f52354ae78a6
@@ -63,6 +65,7 @@ Assignment | Colab (recommended) | Offline |
 [seminar 4 vid]: https://dzen.ru/video/watch/63397b503d1ef66e362196c0
 [seminar 5 vid]: https://dzen.ru/video/watch/632e01694e06cf60ff1b0e15
 [seminar 6 vid]: https://dzen.ru/video/watch/633c1939ef40ea3a64227e5d
+[seminar 7 vid]: https://dzen.ru/video/watch/63428cc9b829767a92d4a0d2
 
 [HW 1 colab]: https://colab.research.google.com/drive/10CH-GRvxoMpK6E22ZezOonc058LevdTu?usp=sharing
 [HW 2 colab]: https://colab.research.google.com/drive/1QZvAd3HCGJUMJUA_gqJdltRUX2xCAIut?usp=sharing
