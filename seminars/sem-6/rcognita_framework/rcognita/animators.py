@@ -729,7 +729,7 @@ class RobotMarker:
 from pipelines import pipeline_3wrobot, pipeline_3wrobot_NI, pipeline_2tank
 
 
-class Animator3WRobot(Animator, pipeline_3wrobot.Pipeline3WRobot):
+class Animator3WRobot(Animator):
     """
     Animator class for a 3-wheel robot with dynamic actuators.
 
@@ -1133,7 +1133,7 @@ class Animator3WRobot(Animator, pipeline_3wrobot.Pipeline3WRobot):
             update_line(self.line_traj, np.nan, np.nan)
 
 
-class Animator3WRobotNI(Animator, pipeline_3wrobot_NI.Pipeline3WRobotNI):
+class Animator3WRobotNI(Animator):
     """
     Animator class for a 3-wheel robot with static actuators.
 
@@ -1487,7 +1487,7 @@ class Animator3WRobotNI(Animator, pipeline_3wrobot_NI.Pipeline3WRobotNI):
             update_line(self.line_traj, np.nan, np.nan)
 
 
-class Animator2Tank(Animator, pipeline_2tank.Pipeline2Tank):
+class Animator2Tank(Animator):
     """
     Animator class for a 2-tank system.
 
