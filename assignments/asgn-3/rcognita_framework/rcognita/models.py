@@ -284,41 +284,6 @@ class ModelNN(nn.Module):
         else:
             return self.cache.forward(*args)
 
-    def __init__(self, dim_observation, dim_action, dim_hidden=20, weights=None):
-        super().__init__()
-
-        self.fc1 = nn.Linear(
-            dim_observation + dim_action, dim_observation + dim_action, bias=False
-        )
-        # self.relu1 = nn.LeakyReLU()
-        # self.fc2 = nn.Linear(dim_hidden, dim_hidden, bias=False)
-        # self.relu2 = nn.LeakyReLU()
-        # self.fc3 = nn.Linear(dim_hidden, dim_hidden, bias=False)
-        # self.relu2 = nn.LeakyReLU()
-        # self.fc3 = nn.Linear(dim_hidden, 1, bias=False)
-
-        if weights is not None:
-            self.load_state_dict(weights)
-
-        self.double()
-        self.cache_weights()
-
-    def forward(self, input_tensor, weights=None):
-        if weights is not None:
-            self.update(weights)
-
-        x = input_tensor
-        x = self.fc1(x)
-
-        x = -(x ** 2)
-        x = torch.sum(x)
-        # x = self.relu1(x)
-        # x = self.fc2(x)
-        # x = self.relu2(x)
-        # x = self.fc3(x)
-
-        return x
-
     @property
     def cache(self):
         """
@@ -429,15 +394,32 @@ class ModelNN(nn.Module):
 
         return result
 
-    # def get(self):
 
-    #     weights_all = np.array([])
+class ModelQuadNoMixTorch(ModelNN):
+    def __init__(self, dim_observation, dim_action, dim_hidden=20, weights=None):
+        super().__init__()
 
-    #     for param_tensor in self.state_dict():
-    #         weights = self.state_dict()[param_tensor].detach().numpy().reshape(-1)
-    #         weights_all = np.hstack((weights_all, weights))
+        self.fc1 = nn.Linear(
+            dim_observation + dim_action, dim_observation + dim_action, bias=False
+        )
 
-    #     return weights_all
+        if weights is not None:
+            self.load_state_dict(weights)
+
+        self.double()
+        self.cache_weights()
+
+    def forward(self, input_tensor, weights=None):
+        if weights is not None:
+            self.update(weights)
+
+        x = input_tensor
+        x = self.fc1(x)
+
+        x = -(x ** 2)
+        x = torch.sum(x)
+
+        return x
 
 
 class LookupTable(ModelAbstract):

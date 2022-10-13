@@ -338,6 +338,9 @@ class EpisodicScenario(OnlineScenario):
             format="png",
         )
 
+    def get_mean(self, array):
+        return sum(array) / len(array)
+
 
 class EpisodicScenarioAsyncAC(EpisodicScenario):
     def __init__(self, *args, **kwargs):
@@ -351,9 +354,6 @@ class EpisodicScenarioAsyncAC(EpisodicScenario):
         self.episode_REINFORCE_objective_gradients.append(
             episode_REINFORCE_objective_gradient
         )
-
-    def get_mean(self, array):
-        return sum(array) / len(array)
 
     def reset_episode(self):
         self.squared_TD_sums_of_episodes.append(self.critic.objective())
