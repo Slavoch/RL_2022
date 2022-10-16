@@ -25,6 +25,7 @@ Seminar | Video | Materials |
 | Seminar 6. Advanced interfaces | [seminar 6 vid] | [seminar 6 problems] |
 | Seminar 7. Actor-Critic (part 2) | [seminar 7 vid] | [seminar 7 problems] |
 | Seminar 8. Actor-Critic (part 3) | [seminar 8 vid] | [seminar 8 problems] |
+| Seminar 9. Model Predictive Control | [seminar 9 vid] | [seminar 9 problems] |
 
 ## Assignments
 Assignment | Colab (recommended) | Offline |
