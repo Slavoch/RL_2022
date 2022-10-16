@@ -60,6 +60,7 @@ Assignment | Colab (recommended) | Offline |
 [seminar 6 problems]: https://colab.research.google.com/drive/1nbC5Ufjiw2r-p4dTqdp6-NgZq3ccNyvw?usp=sharing
 [seminar 7 problems]: https://colab.research.google.com/drive/12M2fTJxlkuZ0fwZqdcKNxKtLa9dAGOPa?usp=sharing
 [seminar 8 problems]: https://colab.research.google.com/drive/12M2fTJxlkuZ0fwZqdcKNxKtLa9dAGOPa?usp=sharing
+[seminar 9 problems]: https://colab.research.google.com/drive/1Gsjg8BbT6_pCmz961C42B9wLQDxIj7cO?usp=sharing
 
 [seminar 1 vid]: https://dzen.ru/video/watch/6320ac92dd1b7e17e7124c42
 [seminar 2 vid]: https://dzen.ru/video/watch/6321e901ac97f52354ae78a6
@@ -69,6 +70,7 @@ Assignment | Colab (recommended) | Offline |
 [seminar 6 vid]: https://dzen.ru/video/watch/633c1939ef40ea3a64227e5d
 [seminar 7 vid]: https://dzen.ru/video/watch/63428cc9b829767a92d4a0d2
 [seminar 8 vid]: https://dzen.ru/video/watch/6346e01a6d30c46d97303624
+[seminar 9 vid]: https://dzen.ru/video/watch/634bf716b7ea33741b748f0e
 
 [HW 1 colab]: https://colab.research.google.com/drive/10CH-GRvxoMpK6E22ZezOonc058LevdTu?usp=sharing
 [HW 2 colab]: https://colab.research.google.com/drive/1QZvAd3HCGJUMJUA_gqJdltRUX2xCAIut?usp=sharing
