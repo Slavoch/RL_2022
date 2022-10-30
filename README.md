@@ -33,6 +33,7 @@ Assignment | Colab (recommended) | Offline |
 | Assignment 1. Tabular methods | [HW 1 colab] | [HW 1 offline] |
 | Assignment 2. Policy-gradient | [HW 2 colab] | [HW 2 offline] |
 | Assignment 3. Actor-Critic | [HW 3 colab] | [HW 3 offline] |
+| Assignment 4. RQL | [HW 4 colab] | [HW 4 offline] |
 
 
 [lecture 1 notes]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/blob?file=lectures%2Flec-1%2FRL2022-lec1-notes-class.pdf
