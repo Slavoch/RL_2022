@@ -76,9 +76,10 @@ Assignment | Colab (recommended) | Offline |
 [HW 1 colab]: https://colab.research.google.com/drive/10CH-GRvxoMpK6E22ZezOonc058LevdTu?usp=sharing
 [HW 2 colab]: https://colab.research.google.com/drive/1QZvAd3HCGJUMJUA_gqJdltRUX2xCAIut?usp=sharing
 [HW 3 colab]: https://colab.research.google.com/drive/1Ahr_PnwSfC0CsPBln1Yy-B6oVXEFy8_M?usp=sharing
+[HW 4 colab]: https://colab.research.google.com/drive/1Qdee4TWHl0AI2_y5xAj_Z7ihJQIcSSTG?usp=sharing
 
 [HW 1 offline]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/file?file=assignments%2Fasgn-1
 [HW 2 offline]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/file?file=assignments%2Fasgn-2
 [HW 3 offline]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/file?file=assignments%2Fasgn-3
-
+[HW 4 offline]: https://gitflic.ru/project/aidynamicaction/classedu2022-rl/file?file=assignments%2Fasgn-4
 
